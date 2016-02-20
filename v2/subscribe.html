@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script language="javascript" type="text/javascript" src="/js/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/main.js" defer></script>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Graphiy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://facebook.com/Graphiy" />
+    <meta property="og:image" content="http://graphiy.com/images/Template_en_wide.jpg" />
+    <meta property="og:site_name" content="Graphiy" />
+    <meta property="fb:admins" content="1016047586" />
+	</head>
+	<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=313991368723229";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <aside id="header">
+  <section id="welcome">
+    <a href="/">Welcome to the world of <b>Graphiy</b></a>
+  </section>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <ul class="nav nav-tabs">
+		<li><a href="http://dmitra.com/tag/graphiy">Blog</a></li>
+        <li>
+          <a href="/">Demo</a>
+        </li>
+        <li><a href="/1">Survey</a></li>
+        <li class="active">
+          <a class="highlight-block" href="#">Subscribe</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="fb-wrapper">
+    <div class="fb-like" data-href="http://facebook.com/Graphiy" data-send="false" data-width="300" data-show-faces="true"></div>
+  </div>
+  <div id="language">
+    <span id="english" class="lang-current"><a href="#">English<img class="flag" src="/images/us.png" alt="" /></a></span>
+    <span id="russian" class="lang"><a href="#">Русский<img class="flag" src="/images/ru.png" alt="" /></a></span>
+  </div>
+  <section id="logo">
+    <img width="40px" height="40px" src="/images/logo.png"/>
+  </section>
+</aside>
+<aside class="centeredContainer">
+  <div class="link-over subscribe-form">
+    Be the first to get Graphiy<br>
+    <input id="email" type="text" placeholder="Email" data-placeholder-text="Email"/>
+    <input id="subscribe" type="button" value="Yes"/>
+    <br>
+    Feedback
+    <br>
+    <textarea id="feedback" rows="8" cols="46"></textarea>
+    <input id="send" type="button" value="Send"/>
+  </div>
+</aside>
+<aside id="info">
+  <section id="share">
+    <footer>
+  <div>&copy; <img alt="Favicon" src="/favicon.ico" />Coming in 2015</div>
+</footer>
+
+  </section>
+</aside>
+
+
+		<canvas id="canvas"></canvas>
+		
+		<script src="/js/stars/App.js"></script>
+		<script src="/js/stars/Model.js"></script>
+		<script src="/js/stars/Camera.js"></script>
+		<script src="/js/stars/Star.js"></script>
+		<script src="/js/stars/WaterParticle.js"></script>
+		<script src="/js/stars/main.js"></script>
+	</body>
+</html>

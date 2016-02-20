@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script language="javascript" type="text/javascript" src="/js/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/main.js" defer></script>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Graphiy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://facebook.com/Graphiy" />
+    <meta property="og:image" content="http://graphiy.com/images/Template_en_wide.jpg" />
+    <meta property="og:site_name" content="Graphiy" />
+    <meta property="fb:admins" content="1016047586" />
+	</head>
+	<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=313991368723229";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <aside id="header">
+  <section id="welcome">
+    <a href="/ru">Добро пожаловать в мир <b>Graphiy</b></a>
+  </section>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <ul class="nav nav-tabs">
+        <li class="active">
+          <a href="#">Презентация</a>
+        </li>
+        <li><a href="/1/index.html">Опрос</a></li>
+        <li>
+          <a class="highlight-block" href="/ru/subscribe.html">Подписка</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="fb-wrapper">
+    <div class="fb-like" data-href="http://facebook.com/Graphiy" data-send="false" data-width="300" data-show-faces="true"></div>
+  </div>
+  <div id="language">
+    <span id="english" class="lang"><a href="#">English<img class="flag" src="/images/us.png" alt="" /></a></span>
+    <span id="russian" class="lang-current"><a href="#">Русский<img class="flag" src="/images/ru.png" alt="" /></a></span>
+  </div>
+    <section id="logo">
+      <img width="40px" height="40px" src="/images/logo.png"/>
+    </section>
+</aside>
+<aside id="video" class="centeredContainer" style="background:url(/images/cover_ru.png) no-repeat center;">
+  <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css" />
+  <script language="javascript" type="text/javascript" src="/js/jquery.prettyPhoto.js" defer></script>
+  <a href="http://www.youtube.com/watch?v=Vs-w5de_3LI" rel="prettyPhoto" class="video link-over">видео</a>
+  <script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function(){
+      jQuery("a[rel^='prettyPhoto']").prettyPhoto({
+        default_width: 853,
+        default_height: 480,
+      });
+    });
+  </script>
+  <a class="firstLink link-over" href="/1/index.html">Опробовать Graphiy</a>
+</aside>
+<aside id="info">
+  <section id="share">
+    <footer>
+  <div>&copy; <img alt="Favicon" src="/favicon.ico" />Ожидайте в 2015</div>
+</footer>
+
+  </section>
+</aside>
+
+
+		<canvas id="canvas"></canvas>
+		
+		<script src="/js/stars/App.js"></script>
+		<script src="/js/stars/Model.js"></script>
+		<script src="/js/stars/Camera.js"></script>
+		<script src="/js/stars/Star.js"></script>
+		<script src="/js/stars/WaterParticle.js"></script>
+		<script src="/js/stars/main.js"></script>
+	</body>
+</html>

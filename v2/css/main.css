@@ -1,0 +1,35 @@
+body {
+	font-family: "proxima-nova-1","proxima-nova-2", arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+#welcome {
+  font-size: 14pt;
+  margin: 20px 40px 20px 20px;
+}
+
+#info {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+section {
+  float: left;
+  margin: 20px 40px 20px 20px;
+  margin-right: 40px;
+}
+#info #share {
+  float: right;
+  margin-right: 40px;
+}
